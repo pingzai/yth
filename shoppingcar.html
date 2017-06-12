@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>购物车</title>
+<script src="static/js/jquery/jquery.min.js"></script>
+<link rel="stylesheet" href="static/css/common/reset.css">
+<link rel="stylesheet" href="static/css/common/function.css">
+<style>
+	.m-shopcar{background:#f0f2f5;}
+	.m-shopcar li{  box-sizing:border-box;width:100%; height:110px;  border-bottom:1px solid #e3e5e9;margin-bottom:9px; background:#fff; position:relative; }
+	.m-shopcar li a{ display:block; padding-left:43px; position:absolute;top:0;left:0px;width:100%;height:110px; box-sizing:border-box; float:left;}
+	.g-icon{ float:left;padding-left:12px;height:110px;   box-sizing:border-box; position:relative; z-index:2; }
+	.g-icon i{ display:block;width:18px; height:18px; border:2px solid #9a9ca5; border-radius:50%; background:#fff; margin-top:45px;}
+	.m-shop-l {width:92px; height:92px; border:1px solid #d7d7d7; border-radius:4px; text-align:center; margin-top:8px;}
+	
+	.m-shop-r{height:100% ;  padding:8px 10px 0 10px; box-sizing:border-box; position:absolute; top:0; left:137px;} 
+	.m-shop-r p{  font-size:13px; color:#232326;line-height:16px;text-overflow: ellipsis;
+display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical; height:32px; overflow:hidden;}
+    .m-shop-r .g-shuoming{color:#81838e; line-height:16px;} 
+	.m-shop-r .g-money{ display:block;color:#f23030; font-size:12px; position:absolute; bottom:12px; }
+	.m-shop-r .g-money i{font-size:16px; margin-left:3px;}
+	.m-shop-r .g-count{ border:1px solid #cbcbcb; border-radius:3px; position:absolute; bottom:9px; right:10px;}
+	.m-shop-r .g-count i{padding:0 8px 0 7px; text-align:center; display:inline-block; box-sizing:border-box;}
+	.m-shop-r .g-count .g-jian{color:#bfbfbf; padding-left:12px; padding-right:4px; box-sizing:border-box;}
+	.m-shop-r .g-count .g-num{ border-left:1px solid #cbcbcb;
+	border-right:1px solid #cbcbcb;padding: 0 15px; box-sizing:border-box;line-height:23px; text-align:center;}
+	.g-jiesuan{ width:121px; line-height:50px; background:#de3d96; font-size:18px; color:#fff; position:fixed; bottom:58px; right:0; text-align:center;}
+	.g-jiesuan i{ font-size:16px;}
+	/*ft底部*/
+	.m-ft-nav{padding:8px 0; background:#fff; border-top:1px solid #d9d9d9; color:#090b1a; position:fixed; bottom:0; left:0; width:100%;}
+	.m-ft-nav li{ float:left; width:25%; text-align:center;box-sizing:border-box; }
+	.m-ft-nav li span{ display:block; margin-top:5px;}
+</style>
+
+</head>
+<script>
+	
+	
+</script>
+<body>
+	<div class="m-shopcar">
+    	<ul>
+        	<li class="f-cb">
+            	<div class="g-icon" id="g_icon">
+                	<i onclick()></i>
+                </div>
+            	<a href="index.html">
+                    <div class="m-shop-l ">                        
+                        <img src="static/img/car.png" style="width:92px; height:92px;" />
+                    </div>
+                    <div class="m-shop-r ">
+                        <p>TEKNUM婴儿推车高景观童车宝宝可坐可平躺双向避fgfhgjhgggggggk震折叠</p>
+                        <span class="g-shuoming">颜色：酒红色（免充气加宽轮）</span>
+                        <span class="g-money">￥<i>427</i>.00</span>
+                        <div class="g-count">
+                            <i class="g-jian">-</i>
+                            <i class="g-num ">1</i>
+                            <i>+</i>
+                        </div>
+                    </div>
+                 </a>
+            </li>
+            <li class="f-cb">
+            	<div class="g-icon" id="g_icon">
+                	<i></i>
+                </div>
+            	<a href="#">
+                    <div class="m-shop-l ">                        
+                        <img src="static/img/car.png" style="width:92px; height:92px;" />
+                    </div>
+                    <div class="m-shop-r ">
+                        <p>TEKNUM婴儿推车高景观童车宝宝可坐可平躺双向避fgfhgjhgggggggk震折叠</p>
+                        <span class="g-shuoming">颜色：酒红色（免充气加宽轮）</span>
+                        <span class="g-money">￥<i>427</i>.00</span>
+                        <div class="g-count">
+                            <i class="g-jian">-</i>
+                            <i class="g-num ">1</i>
+                            <i>+</i>
+                        </div>
+                    </div>
+                 </a>
+            </li>
+            <li class="f-cb">
+            	<div class="g-icon" id="g_icon">
+                	<i></i>
+                </div>
+            	<a href="#">
+                    <div class="m-shop-l ">                        
+                        <img src="static/img/car.png" style="width:92px; height:92px;" />
+                    </div>
+                    <div class="m-shop-r ">
+                        <p>TEKNUM婴儿推车高景观童车宝宝可坐可平躺双向避fgfhgjhgggggggk震折叠</p>
+                        <span class="g-shuoming">颜色：酒红色（免充气加宽轮）</span>
+                        <span class="g-money">￥<i>427</i>.00</span>
+                        <div class="g-count">
+                            <i class="g-jian">-</i>
+                            <i class="g-num ">1</i>
+                            <i>+</i>
+                        </div>
+                    </div>
+                 </a>
+            </li><li class="f-cb">
+            	<div class="g-icon" id="g_icon">
+                	<i></i>
+                </div>
+            	<a href="#">
+                    <div class="m-shop-l ">                        
+                        <img src="static/img/car.png" style="width:92px; height:92px;" />
+                    </div>
+                    <div class="m-shop-r ">
+                        <p>TEKNUM婴儿推车高景观童车宝宝可坐可平躺双向避fgfhgjhgggggggk震折叠</p>
+                        <span class="g-shuoming">颜色：酒红色（免充气加宽轮）</span>
+                        <span class="g-money">￥<i>427</i>.00</span>
+                        <div class="g-count">
+                            <i class="g-jian">-</i>
+                            <i class="g-num ">1</i>
+                            <i>+</i>
+                        </div>
+                    </div>
+                 </a>
+            </li>
+            <li class="f-cb">
+            	<div class="g-icon" id="g_icon">
+                	<i></i>
+                </div>
+            	<a href="#">
+                    <div class="m-shop-l ">                        
+                        <img src="static/img/car.png" style="width:92px; height:92px;" />
+                    </div>
+                    <div class="m-shop-r ">
+                        <p>TEKNUM婴儿推车高景观童车宝宝可坐可平躺双向避fgfhgjhgggggggk震折叠</p>
+                        <span class="g-shuoming">颜色：酒红色（免充气加宽轮）</span>
+                        <span class="g-money">￥<i>427</i>.00</span>
+                        <div class="g-count">
+                            <i class="g-jian">-</i>
+                            <i class="g-num ">1</i>
+                            <i>+</i>
+                        </div>
+                    </div>
+                 </a>
+            </li>
+       		
+        </ul>
+    </div>
+</body>
+</html>
